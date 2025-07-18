@@ -1,0 +1,89 @@
+/* projects.css */
+
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #c0c0c0;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card {
+  background-color: #222;
+  border: 1px solid #444;
+  color: #eee;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit:scale-down;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url('storm.gif') no-repeat center center fixed;
+  background-size: cover;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dark-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+/* Push all content above overlay */
+body > *:not(.dark-overlay) {
+  position: relative;
+  z-index: 1;
+}
+.grey-box {
+  background: rgba(50, 50, 50, 0.75); /* grey and slightly see-through */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
+  padding: 30px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+.grey-box {
+  background: rgba(50, 50, 50, 0.75); /* grey and slightly see-through */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
+  padding: 30px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}

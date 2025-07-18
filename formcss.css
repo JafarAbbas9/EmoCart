@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(storm.gif);
+  background-size: cover;
+}
+
+.emocart {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  margin-top: 0;
+  padding: 20px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #000;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.emocart a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.emocart a:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+.form-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.emo-form {
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  color: rgb(0, 255, 213);
+  box-shadow: 0 0 10px rgb(0, 195, 255);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.emo-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.emo-form label {
+  display: block;
+  margin-top: 15px;
+}
+
+.emo-form input,
+.emo-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background: #333;
+  color: #00f7ff;
+  border: none;
+  border-radius: 5px;
+}
+
+.emo-form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(17, 150, 117);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.emo-form button:hover {
+  transform: scale(1.05);
+  background-color: #00eeff;
+}
+
+/* Add custom emo-style modal and button styling */
+
+.btn-black {
+  background-color: black !important;
+  color: cyan !important;
+  border: none !important;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: 0.3s;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 0 10px cyan;
+}
+
+.btn-black:hover {
+  background-color: #222 !important;
+  color: white !important;
+}
+
+/* Make modal text visible and styled for emo theme */
+.modal-content {
+  color: black;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px cyan;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+/* Emo footer */
+footer {
+  background-color: #000;
+  color: #00f7ff;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Courier New', monospace;
+  box-shadow: 0 0 10px cyan;
+}
+
+/* Responsive modal button area */
+.text-center {
+  text-align: center;
+  margin-top: 20px;
+}
